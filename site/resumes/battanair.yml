@@ -1,0 +1,121 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduardo
+    last_name: Battaner
+    
+    # Define yourself in 4-5 words
+    motto: Todo siempre con humor.
+    
+    # Focus
+    focus: Proyectos personales
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Diseñador y desarrollador web con nociones de marketing digital. Todo lo intenta hacer siempre con sentido del humor.
+      
+      Cómico y actor. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://madrid.lafarandulactores.com/wp-content/uploads/1991/04/eduardo-battaner-91-lf2-4-400x575.jpg
+
+    # Contact Information
+    email: battanedd@gmail.com #optional
+    phone: 600 811 496 #optional
+    website: eduardobattaner.com #optional
+    linkedin: eduardo-battaner #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: battanair
+    
+    twitter: 'battanair' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Bilingual 
+
+      - idiom: French
+        level: Starter
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Comedy
+
+      - item: Acting
+
+      - item: Plants
+
+# Your previous education
+education:
+    - degree: Mass Media Communications
+      university: Universidad Europea de Madrid
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Universidad-europea-logo_poc9mEM.2e16d0ba.fill-767x384.png/640px-Universidad-europea-logo_poc9mEM.2e16d0ba.fill-767x384.png
+      time: 2009 - 2012
+      details: |
+        Especialidad en Cine y TV
+
+    - degree: Máster en Programación y Desarrollo Web
+      university: Escuela Arte Granada
+      # optional
+      university_logo: https://www.escuelaartegranada.com/images/logo.png
+      time: 2016 - 2017
+      details: |
+        Wordpress, HTML y CSS. 
+    
+    - degree: Máster en Diseño UX/UI
+      university: Trazos
+      # optional
+      university_logo: https://trazos.net/wp-content/uploads/2024/03/logo-trazos.webp
+      time: 2021 - 2022
+      details: |
+        Diseño gráfico enfocado en creación de páginas web. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Web Developer 
+      time: 2018 - Present
+      company: Battawebs
+      # optional
+      details: |
+        I made webs for other people. 
+
+    - role: Media producer
+      time: 2017 - 2019
+      company: Sr. Potato
+      # optional
+      details: |
+       Community Manager / Web developer / Designer / Influencers Marketing / Editor / Camera
+
+skills:
+    toolset:
+      - name: Adobe Suite
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 70%
+
+      - name: Figma
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Wordpress
+        level: 85%
